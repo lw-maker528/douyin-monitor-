@@ -1,0 +1,12 @@
+{
+  "appId": "com.monitor.douyin",
+  "appName": "鎶栭煶鐩存挱鐩戞帶",
+  "webDir": "www",
+  "server": {
+    "url": "http://192.168.1.10:3456",
+    "hostname": "DouyinMonitor"
+  },
+  "android": {
+    "backgroundColor": "#121212"
+  }
+}
