@@ -1,0 +1,28 @@
+{
+  "name": "douyin-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Web app ready ( Capacitor copies www/ automatically )'",
+    "copy": "npx cap copy android",
+    "android": "npx cap open android",
+    "apk": "npx cap copy android && cd android && ./gradlew assembleDebug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.4.0",
+    "@capacitor/cli": "^8.4.0",
+    "@capacitor/core": "^8.4.0",
+    "axios": "^1.17.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "ngrok": "^5.0.0-beta.2",
+    "node-fetch": "^3.3.2"
+  }
+}
